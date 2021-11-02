@@ -73,7 +73,7 @@ urlpatterns = [
     path('webadmin/delete_ribbon/<int:id>', views.delete_ribbon, name='delete_ribbon'),
     path('webadmin/edit_ribbon/<int:id>', views.edit_ribbon, name='edit_ribbon'),
     path('webadmin/allribbon/', views.allribbon, name='allribbon'),
-    path('webadmin/send_message/', views.send_message, name='send'),
+   
 
     #User panel urls
     path('userlogin/', views.login, name='userlogin'),
